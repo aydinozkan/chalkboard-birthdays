@@ -1,0 +1,8 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/birthdayListFragment">
+
+    <fragment
+        android:id="@+id/birthdayListFragment"
+        android:name="com.chalkboard.birthdays.list.presentation.BirthdayListFragment" />
+</navigation>
