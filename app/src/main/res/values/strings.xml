@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Birthdays</string>
+    <string name="name_surname_initials">Name surname initials</string>
+    <string name="generic_error_message">An error occurred, please try again later.</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.chalkboard.birthdays
 
 import android.app.Application
+import com.chalkboard.birthdays.list.di.BirthdayListModule
 import com.chalkboard.birthdays.network.di.NetworkModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -24,6 +25,7 @@ class BirthdayApp : Application() {
                 listOf(
                     ApplicationModule.create(),
                     NetworkModule.create(),
+                    BirthdayListModule.create(),
                 )
             )
         }
