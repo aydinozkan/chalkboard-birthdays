@@ -33,22 +33,15 @@ class BirthdayListAdapter : RecyclerView.Adapter<BirthdayListAdapter.ViewHolder>
     override fun getItemCount() = birthdays.size
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        constructor(parent: ViewGroup) : this(
-            LayoutInflater.from(parent.context).inflate(R.layout.list_item_birthday, parent, false)
-        )
+        constructor(parent: ViewGroup) : this(LayoutInflater.from(parent.context).inflate(R.layout.list_item_birthday, parent, false))
 
         internal fun bind(birthday: Birthday) {
             setupListeners(birthday)
 
-            val nameSurname = birthday.name.first + " " + birthday.name.last
-
             with(itemView) {
-                nameSurnameInitialsTextView.text = nameSurname.extractInitials()
-                nameSurnameTextView.text = nameSurname
-                birthdateTextView.text = SimpleDateFormat(
-                    BIRTHDAY_DATE_FORMAT,
-                    Locale.getDefault()
-                ).format(birthday.dateOfBirth.date)
+                nameSurnameInitialsTextView.text = birthday.name.nameSurname.extractInitials()
+                nameSurnameTextView.text = birthday.name.nameSurname
+                birthdateTextView.text = SimpleDateFormat(BIRTHDAY_DATE_FORMAT, Locale.getDefault()).format(birthday.dateOfBirth.date)
             }
         }
 

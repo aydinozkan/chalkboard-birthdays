@@ -19,14 +19,17 @@ data class Birthday(
 @Keep
 @Parcelize
 data class BirthdayName(
-    @SerializedName("title") val title: String,
-    @SerializedName("first") val first: String,
-    @SerializedName("last") val last: String
-) : Parcelable
+    @SerializedName("title") val title: String?,
+    @SerializedName("first") val first: String?,
+    @SerializedName("last") val last: String?
+) : Parcelable {
+    val nameSurname: String
+        get() = "$first $last"
+}
 
 @Keep
 @Parcelize
 data class BirthdayDateOfBirth(
     @SerializedName("date") val date: Date,
-    @SerializedName("age") val age: String
+    @SerializedName("age") val age: Int
 ) : Parcelable

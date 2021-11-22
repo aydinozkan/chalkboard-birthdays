@@ -44,6 +44,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.0-beta02'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.0-beta02'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
     implementation 'io.insert-koin:koin-android:3.0.2'
     implementation 'io.insert-koin:koin-core:3.0.2'
     implementation 'io.insert-koin:koin-core-ext:3.0.2'

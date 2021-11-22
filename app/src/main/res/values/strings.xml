@@ -2,4 +2,6 @@
     <string name="app_name">Birthdays</string>
     <string name="name_surname_initials">Name surname initials</string>
     <string name="generic_error_message">An error occurred, please try again later.</string>
+    <string name="birthday_detail_age">%d years old</string>
+    <string name="birthday_detail_action_back">Go back</string>
 </resources>

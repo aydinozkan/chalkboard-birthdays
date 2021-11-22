@@ -7,43 +7,33 @@
     android:clipToPadding="false"
     android:focusable="true">
 
-    <ImageView
-        android:id="@+id/nameSurnameInitialsImageView"
+    <TextView
+        android:id="@+id/nameSurnameInitialsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="14dp"
         android:layout_marginBottom="14dp"
-        android:contentDescription="@string/name_surname_initials"
-        android:src="@drawable/background_name_surname_initials"
+        android:background="@drawable/background_name_surname_initials"
+        android:gravity="center"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/nameSurnameInitialsTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/nameSurnameInitialsImageView"
-        app:layout_constraintEnd_toEndOf="@id/nameSurnameInitialsImageView"
-        app:layout_constraintStart_toStartOf="@id/nameSurnameInitialsImageView"
-        app:layout_constraintTop_toTopOf="@id/nameSurnameInitialsImageView" />
-
-    <TextView
         android:id="@+id/nameSurnameTextView"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:textColor="?attr/colorSecondary"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/birthdateTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/nameSurnameInitialsImageView"
-        app:layout_constraintTop_toTopOf="@id/nameSurnameInitialsImageView"
+        app:layout_constraintStart_toEndOf="@id/nameSurnameInitialsTextView"
+        app:layout_constraintTop_toTopOf="@id/nameSurnameInitialsTextView"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
@@ -53,7 +43,7 @@
         android:layout_marginTop="6dp"
         android:textColor="?attr/colorSecondary"
         android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@id/nameSurnameInitialsImageView"
+        app:layout_constraintBottom_toBottomOf="@id/nameSurnameInitialsTextView"
         app:layout_constraintStart_toStartOf="@id/nameSurnameTextView"
         app:layout_constraintTop_toBottomOf="@id/nameSurnameTextView" />
 
