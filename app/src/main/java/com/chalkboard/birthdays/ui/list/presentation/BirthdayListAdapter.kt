@@ -1,4 +1,4 @@
-package com.chalkboard.birthdays.list.presentation
+package com.chalkboard.birthdays.ui.list.presentation
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.chalkboard.birthdays.R
 import com.chalkboard.birthdays.extensions.extractInitials
 import com.chalkboard.birthdays.helpers.DiffUtilsCallback
-import com.chalkboard.birthdays.list.data.Birthday
+import com.chalkboard.birthdays.ui.list.data.Birthday
 import kotlinx.android.synthetic.main.list_item_birthday.view.*
 import java.text.SimpleDateFormat
 import java.util.*

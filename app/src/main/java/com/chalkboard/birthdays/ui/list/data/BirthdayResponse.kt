@@ -1,4 +1,4 @@
-package com.chalkboard.birthdays.list.data
+package com.chalkboard.birthdays.ui.list.data
 
 import android.os.Parcelable
 import androidx.annotation.Keep

@@ -1,4 +1,4 @@
-package com.chalkboard.birthdays.detail.presentation
+package com.chalkboard.birthdays.ui.detail.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
 import com.chalkboard.birthdays.R
 import com.chalkboard.birthdays.extensions.extractInitials
-import com.chalkboard.birthdays.list.data.Birthday
+import com.chalkboard.birthdays.ui.list.data.Birthday
 import kotlinx.android.synthetic.main.fragment_birthday_detail.*
 
 class BirthdayDetailFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.chalkboard.birthdays.list.presentation
+package com.chalkboard.birthdays.ui.list.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -12,8 +12,8 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.chalkboard.birthdays.R
-import com.chalkboard.birthdays.detail.presentation.BirthdayDetailFragment.Companion.BUNDLE_BIRTHDAY
-import com.chalkboard.birthdays.list.data.Birthday
+import com.chalkboard.birthdays.ui.detail.presentation.BirthdayDetailFragment.Companion.BUNDLE_BIRTHDAY
+import com.chalkboard.birthdays.ui.list.data.Birthday
 import kotlinx.android.synthetic.main.fragment_birthday_list.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

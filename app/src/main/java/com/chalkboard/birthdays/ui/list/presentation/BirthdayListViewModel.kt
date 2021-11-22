@@ -1,11 +1,11 @@
-package com.chalkboard.birthdays.list.presentation
+package com.chalkboard.birthdays.ui.list.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chalkboard.birthdays.extensions.launchSafe
-import com.chalkboard.birthdays.list.domain.BirthdayListRepository
+import com.chalkboard.birthdays.ui.list.domain.BirthdayListRepository
 
 class BirthdayListViewModel(private val repository: BirthdayListRepository) : ViewModel() {
 

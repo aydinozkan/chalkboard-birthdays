@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Birthdays">
         <activity
-            android:name=".main.BirthdayMainActivity"
+            android:name="com.chalkboard.birthdays.ui.main.BirthdayMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,6 +1,6 @@
-package com.chalkboard.birthdays.list.presentation
+package com.chalkboard.birthdays.ui.list.presentation
 
-import com.chalkboard.birthdays.list.data.Birthday
+import com.chalkboard.birthdays.ui.list.data.Birthday
 
 sealed class BirthdayListUiState {
     data class Loading(val show: Boolean) : BirthdayListUiState()

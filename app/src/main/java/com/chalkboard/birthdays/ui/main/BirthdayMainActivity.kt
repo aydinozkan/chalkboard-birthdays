@@ -1,4 +1,4 @@
-package com.chalkboard.birthdays.main
+package com.chalkboard.birthdays.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

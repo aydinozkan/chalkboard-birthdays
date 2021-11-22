@@ -4,7 +4,7 @@
 
     <fragment
         android:id="@+id/birthdayListFragment"
-        android:name="com.chalkboard.birthdays.list.presentation.BirthdayListFragment">
+        android:name="com.chalkboard.birthdays.ui.list.presentation.BirthdayListFragment">
         <action
             android:id="@+id/openBirthdayDetail"
             app:destination="@+id/birthdayDetailFragment" />
@@ -12,5 +12,5 @@
 
     <fragment
         android:id="@+id/birthdayDetailFragment"
-        android:name="com.chalkboard.birthdays.detail.presentation.BirthdayDetailFragment" />
+        android:name="com.chalkboard.birthdays.ui.detail.presentation.BirthdayDetailFragment" />
 </navigation>

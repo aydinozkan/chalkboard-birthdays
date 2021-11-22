@@ -1,6 +1,6 @@
-package com.chalkboard.birthdays.list.domain
+package com.chalkboard.birthdays.ui.list.domain
 
-import com.chalkboard.birthdays.list.data.Birthday
+import com.chalkboard.birthdays.ui.list.data.Birthday
 
 class BirthdayListRepository(private val service: BirthdayListService) {
 
