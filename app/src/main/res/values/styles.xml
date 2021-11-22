@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.AppBarOverlay" parent="Theme.Birthdays">
+        <item name="android:textColorPrimary">?attr/colorSecondary</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>
